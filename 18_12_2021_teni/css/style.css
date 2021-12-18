@@ -1,0 +1,87 @@
+.red, .black{
+    background: gray;
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+}
+.black{
+    border: 10px solid black;
+    border-radius: 10px 40px 40px 10px;
+}
+.red{
+    border: 10px solid red;
+    border-radius: 30px;
+}
+.btn{
+    color: white;
+    background: rgba(45, 129, 255, 0.692);
+    width: 150px;
+    padding: 15px 20px;
+    margin: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.btn1{
+    box-shadow: 0 5px 5px 5px lightslategray;
+}
+.btn1:active{
+    box-shadow: 0 5px 5px -3px lightslategray;
+}
+.btn2{
+    box-shadow: inset 0 -37px 30px -30px lightslategray;
+
+}
+.sub{
+    color: white;
+    background: rgb(31, 31, 134);
+    width: 150px;
+    padding: 15px 20px;
+    margin: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.sub1{
+    box-shadow: 5px 5px orangered;
+}
+.sub2{
+    box-shadow: 0 5px 6px 1px rgb(56, 109, 163);
+    background: orangered;
+}
+.sub3{
+    box-shadow: inset 0 0 0 5px orangered;
+}
+.text{
+    text-align: center;
+    font-size: large;
+    box-shadow:-20px 20px 0 -17px gray,20px -20px 0 -17px gray,0 0 0 3px purple;
+}
+p:first-letter{
+    font-size: 30px;
+    color: red;
+}
+.text2{
+    background: rgb(227, 197, 241);
+    padding: 10px;
+}
+h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 0 rgb(227, 197, 241) ,4px 4px 0 rgba(0, 0, 0, 0.2);
+
+}
+.smile{
+    font-size: 150px;
+    margin-left: 200px;
+
+}
+span{
+    text-shadow: -55px 60px 0 yellow,-110px 0 0 blue, 55px 60px 0 green, 110px 0 0 red;
+}
+article{
+    column-count: 2;
+    background: hotpink;
+    padding: 20px;
+}
